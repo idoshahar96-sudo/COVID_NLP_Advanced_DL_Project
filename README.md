@@ -28,7 +28,7 @@ The notebook has been run using ***Google Colab***, while all model weights & re
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Weights](https://drive.google.com/drive/folders/1cLwmKTbbsT3cSPEF7CKLlco_sUXOVyz2?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Weights](https://drive.google.com/drive/folders/1GigQrF5r1mo967YNVuX_sw5a6yji-Uco?usp=sharing)
 - - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Weights](https://drive.google.com/drive/folders/1DNEfAtxO-jn6-hf_pI19eONl1l-JY8Fk?usp=sharing)
-- The ***data*** could be obtained from Kaggle, but also from the project folder (specified above) - in the [***data*** subfolder](https://drive.google.com/drive/folders/1S1jxDoTxNXFIZKACrRp9nj2jhgatr_Au?usp=sharing). More specifically:
+- The ***data*** could be obtained from [Kaggle](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification/data), but also from the project folder (specified above) - in the [***data*** subfolder](https://drive.google.com/drive/folders/1S1jxDoTxNXFIZKACrRp9nj2jhgatr_Au?usp=sharing). More specifically: 
 - - [Original Training Data - CORONA_NLP_Train](https://drive.google.com/file/d/1dCbfsXJuU_Ers3k1JmtjLrfqVMUgEO6m/view?usp=drive_link)
 - - [Original Test Data - CORONA_NLP_Test](https://drive.google.com/file/d/1fmODEknrlX9MkB7VCr7EaZOPCpZy6QUx/view?usp=sharing)
 - - [Cleaned Training Data - CLEANED_CORONA_NLP_Train](https://drive.google.com/file/d/1QvlQEaO_YdCi3CXB3aMZmj5nl9HV1Tpf/view?usp=drive_link)
