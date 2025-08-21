@@ -1,6 +1,7 @@
-# Advanced Topics in DL - Project - Sentiment Analysis of COVID-19 Tweets using Fine-Tuned NLP Models
-This project applies advanced deep learning techniques for sentiment analysis of COVID-19 tweets. It has been a major part of a course we took - "Advanced Topics in Deep Learning" at TAU's faculty of engineering (2025), during the 3rd year of our studies. As a group of 2, we fine-tuned two pre-trained HuggingFace transformer models ([BERTweet](https://huggingface.co/vinai/bertweet-base) and [RoBERTa](https://huggingface.co/cardiffnlp/twitter-roberta-base) variants) for sentiment analysis on the [COVID-19 Twitter Sentiment Dataset from Kaggle](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification/data). Building on these, we explored model compression techniques (pruning, quantization, and knowledge distillation) to evaluate the trade-off between efficiency and performance, under a strict compute budget.
+# Advanced Topics in Deep Learning - Project - Sentiment Analysis of COVID-19 Tweets using Fine-Tuned NLP Models
+This project applies advanced deep learning (DL) techniques for sentiment analysis of COVID-19 tweets. It has been a major part of a course we took - "Advanced Topics in Deep Learning" at TAU's faculty of engineering (2025), during the 3rd year of our studies. As a group of 2, we fine-tuned two pre-trained HuggingFace transformer models ([BERTweet](https://huggingface.co/vinai/bertweet-base) and [RoBERTa](https://huggingface.co/cardiffnlp/twitter-roberta-base) variants) for sentiment analysis on the [COVID-19 Twitter Sentiment Dataset from Kaggle](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification/data). Building on these, we explored model compression techniques (pruning, quantization, and knowledge distillation) to evaluate the trade-off between efficiency and performance, under a strict compute budget.
 
+![_](https://github.com/IdanKanat/COVID_NLP_Advanced_DL_Project/blob/f10660f8b73eda11dc920446c6db5804c0e43fcd/AdvancedTopicsInDL_Project_COVID_NLP_ThemePic%20-%20FINAL.png)
 The first, fine-tuning stage included:
 
 - *Preprocessing: tweet cleaning, tokenization and more.*
@@ -15,7 +16,7 @@ After final training of the models using various modeling methodologies, the sec
 - ***Quantization***: dynamic post-training quantization to reduce model size and accelerate inference.
 - ***Knowledge Distillation***: training smaller student models (e.g., HunggingFace's [arampacha/roberta-tiny[(https://huggingface.co/arampacha/roberta-tiny)) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
 
-All models were later compared using train & test metrics (accuracy, F1-score, precision and recall), parameter count, the comparison was formatted in a neat CSV file and model weights are kept in the accessible through drive.
+All models were later compared using train & test metrics (accuracy, F1-score, precision and recall) & parameter count. The comparison was formatted in a neat CSV file and model weights are kept in the accessible through drive.
 
 Key Assumptions & Workflow
 
