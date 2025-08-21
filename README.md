@@ -51,3 +51,8 @@ The notebook has been run using ***Google Colab***, while all model weights & re
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1oIOf-3wLbJEc4-a1ckUGGzhyggqZj1we?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1NVfmLfOWvCS2yl56GKadzPhGK3yNhOf1?usp=sharing)
 - - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1OquMefx5ummwNxApxvKoOm8vq4JtAZfL?usp=sharing)
+- ***Knowledge Distillation (KD)*** - The ***KD student model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer, and depending on the student as well, which in our case, we always used HunggingFace's [arampacha/roberta-tiny](https://huggingface.co/arampacha/roberta-tiny)) could be obtained in the [***KD_Model_Weights*** subfolder](), in the project folder specified above.
+- - [(Teacher) Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Pruned (Weights - After Pruning)]()
+- - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Pruned (Weights - After Pruning)]()
+- - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)]()
+- - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)]()
