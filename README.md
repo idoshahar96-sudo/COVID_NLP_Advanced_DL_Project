@@ -14,7 +14,7 @@ After final training of the models using various modeling methodologies, the sec
 
 - ***Pruning***: structured pruning of attention and dense layers.
 - ***Quantization***: dynamic post-training quantization to reduce model size and accelerate inference.
-- ***Knowledge Distillation (KD)***: training smaller student models (e.g., HunggingFace's [arampacha/roberta-tiny[(https://huggingface.co/arampacha/roberta-tiny)) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
+- ***Knowledge Distillation (KD)***: training smaller student models (e.g., HunggingFace's [arampacha/roberta-tiny](https://huggingface.co/arampacha/roberta-tiny)) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
 
 All models were later compared using train & test metrics (accuracy, F1-score, precision and recall) & parameter count. The comparison was formatted in a neat CSV file and model weights are kept in the accessible through drive.
 
