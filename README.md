@@ -2,6 +2,7 @@
 This project applies advanced deep learning techniques for sentiment analysis of COVID-19 tweets. It has been a major part of a course we took - "Advanced Topics in Deep Learning" at TAU's faculty of engineering (2025), during the 3rd year of our studies. As a group of 2, we fine-tuned two pre-trained HuggingFace transformer models (BERTweet and RoBERTa variants) for sentiment analysis on the COVID-19 Twitter Sentiment Dataset from Kaggle. Building on these, we explored model compression techniques (pruning, quantization, and knowledge distillation) to evaluate the trade-off between efficiency and performance, under a strict compute budget.
 
 The first, fine-tuning stage included:
+
 - *Preprocessing: tweet cleaning, tokenization and more.*
 - *Data splitting - training & validation*.
 - *Transfer Learning of pre-trained HuggingFace Transformers*.
@@ -10,11 +11,9 @@ The first, fine-tuning stage included:
 
 Afterwards, the second, model compression stage included three complementary post-training techniques:
 
-- **Pruning**: structured pruning of attention and dense layers.
-
-- **Quantization**: dynamic post-training quantization to reduce model size and accelerate inference.
-
-- **Knowledge Distillation**: training smaller student models (e.g., HunggingFace's arampacha/roberta-tiny) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
+- ***Pruning***: structured pruning of attention and dense layers.
+- ***Quantization***: dynamic post-training quantization to reduce model size and accelerate inference.
+- ***Knowledge Distillation***: training smaller student models (e.g., HunggingFace's arampacha/roberta-tiny) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
 
 3. Evaluation
 
