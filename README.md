@@ -23,7 +23,7 @@ All models were later compared using train & test metrics (accuracy, F1-score, p
 ## How to reproduce the project code using Git Clone?
 The notebook has been run using ***Google Colab***, while all model weights & relevant folders have been saved to my Google Drive while running the notebook (this includes model weights, best hyperparameters, datasets and more). In a nutshell:
 - Access the publicly available [project folder](https://drive.google.com/drive/folders/1egGGJ6F878xIk_bKUfjhyZStESiliwRC?usp=sharing), called "Project_COVID_NLP", which is located in Google Drive. Download it to your local computer. Within the code - there exists a base variable defining the key path for saving everything in the project to Drive. This variable is called 'basic_drive_path', and all users should change & adapt it according to their local computer environment settings.
-- The ***model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer) could be obtained in the [***Model_Weights*** subfolder](https://drive.google.com/drive/folders/1MC21Y6shpe7IXpWPEcFem7B_h9YQScun?usp=sharing) in the project folder specified above.
+- The ***model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer) could be obtained in the [***Model_Weights*** subfolder](https://drive.google.com/drive/folders/1MC21Y6shpe7IXpWPEcFem7B_h9YQScun?usp=sharing), in the project folder specified above.
 - - [Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Weights](https://drive.google.com/drive/folders/1fK2TyZg1JxXvPzJAwfzrNl8xIFfxlgGi?usp=sharing)
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Weights](https://drive.google.com/drive/folders/1cLwmKTbbsT3cSPEF7CKLlco_sUXOVyz2?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Weights](https://drive.google.com/drive/folders/1GigQrF5r1mo967YNVuX_sw5a6yji-Uco?usp=sharing)
@@ -33,7 +33,7 @@ The notebook has been run using ***Google Colab***, while all model weights & re
 - - [Original Test Data - CORONA_NLP_Test](https://drive.google.com/file/d/1fmODEknrlX9MkB7VCr7EaZOPCpZy6QUx/view?usp=sharing)
 - - [Cleaned Training Data - CLEANED_CORONA_NLP_Train](https://drive.google.com/file/d/1QvlQEaO_YdCi3CXB3aMZmj5nl9HV1Tpf/view?usp=drive_link)
 - - [Cleaned Test Data - CLEANED_CORONA_NLP_Test](https://drive.google.com/file/d/14U9ZPAUCbmL_bHh--hRV4NcZjbYUm29t/view?usp=sharing)
-- For future usage & results reproducibility, the ***best model hyperparameters dictionaries*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer), saved as JSON files, could be obtained in the [***Model_HPs*** subfolder](https://drive.google.com/drive/folders/1-UqIBULhKS1_RQEUkqRQb1P7O3wkRiO2?usp=sharing) in the project folder specified above.
+- For future usage & results reproducibility, the ***best model hyperparameters dictionaries*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer), saved as JSON files, could be obtained in the [***Model_HPs*** subfolder](https://drive.google.com/drive/folders/1-UqIBULhKS1_RQEUkqRQb1P7O3wkRiO2?usp=sharing), in the project folder specified above.
 - - [Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Best HPs (Trial)](https://drive.google.com/file/d/1S8cVHWauBvsMfA23E-jbrNOb2yPGfmzs/view?usp=sharing)
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Best HPs (Trial)](https://drive.google.com/file/d/1R1bc5IB3OXHsZQerkH4JfM3GzOG5s-Xn/view?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Best HPs (Trial)](https://drive.google.com/file/d/1Yl6Of1CZtaK4mRJIEM8dSN-EZMSByuuY/view?usp=sharing)
@@ -41,7 +41,7 @@ The notebook has been run using ***Google Colab***, while all model weights & re
 
 
 ### **Compressed Model Weights:**
-- ***Quantization*** - The ***quantized model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer) could be obtained in the [***Quantized_Model_Weights*** subfolder](https://drive.google.com/drive/folders/1AEGk1wITNizVru37kBpgDxL43rbrpwc4?usp=sharing) in the project folder specified above.
+- ***Quantization*** - The ***quantized model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer) could be obtained in the [***Quantized_Model_Weights*** subfolder](https://drive.google.com/drive/folders/1AEGk1wITNizVru37kBpgDxL43rbrpwc4?usp=sharing), in the project folder specified above.
 - - [Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/16ZBA6haFtdUNNs_yo7UhkVNi3TmuqH2H?usp=sharing)
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/1hWhzq2HFbaBOwNymhXacm4ZcUYWCvv_j?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/1vw7tLXEdAJeAGXyYprX2n09Y5Cv40LJZ?usp=sharing)
