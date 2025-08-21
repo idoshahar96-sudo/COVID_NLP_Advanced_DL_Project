@@ -46,5 +46,8 @@ The notebook has been run using ***Google Colab***, while all model weights & re
 - - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/1hWhzq2HFbaBOwNymhXacm4ZcUYWCvv_j?usp=sharing)
 - - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/1vw7tLXEdAJeAGXyYprX2n09Y5Cv40LJZ?usp=sharing)
 - - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Quantized (Weights - After Quantization)](https://drive.google.com/drive/folders/1ebFP3fuCRpLbnZUXePIABrScYo9rHp7s?usp=sharing)
-
-
+- ***Pruning*** - The ***pruned model weights*** (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer) could be obtained in the [***Pruned_Model_Weights*** subfolder](https://drive.google.com/drive/folders/15-zH6yegjVwOoEButlPU4qJ1zahXAads?usp=sharing), in the project folder specified above.
+- - [Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1IkBpM59-C0NGwZEtwg9iUurEJe66vL61?usp=sharing)
+- - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1oIOf-3wLbJEc4-a1ckUGGzhyggqZj1we?usp=sharing)
+- - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1NVfmLfOWvCS2yl56GKadzPhGK3yNhOf1?usp=sharing)
+- - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Pruned (Weights - After Pruning)](https://drive.google.com/drive/folders/1OquMefx5ummwNxApxvKoOm8vq4JtAZfL?usp=sharing)
