@@ -10,11 +10,11 @@ The first, fine-tuning stage included:
 
 Afterwards, the second, model compression stage included three complementary post-training techniques:
 
--**Pruning**: structured pruning of attention and dense layers.
+- **Pruning**: structured pruning of attention and dense layers.
 
--**Quantization**: dynamic post-training quantization to reduce model size and accelerate inference.
+- **Quantization**: dynamic post-training quantization to reduce model size and accelerate inference.
 
--**Knowledge Distillation**: training smaller student models (e.g., HunggingFace's arampacha/roberta-tiny) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
+- **Knowledge Distillation**: training smaller student models (e.g., HunggingFace's arampacha/roberta-tiny) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
 
 3. Evaluation
 
