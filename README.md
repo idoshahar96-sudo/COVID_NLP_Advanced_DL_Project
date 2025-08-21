@@ -31,5 +31,10 @@ The notebook has been run using Google Colab, while all model weights & relevant
 - - [Original Test Data - CORONA_NLP_Test](https://drive.google.com/file/d/1fmODEknrlX9MkB7VCr7EaZOPCpZy6QUx/view?usp=sharing)
 - - [Cleaned Training Data - CLEANED_CORONA_NLP_Train](https://drive.google.com/file/d/1QvlQEaO_YdCi3CXB3aMZmj5nl9HV1Tpf/view?usp=drive_link)
 - - [Cleaned Test Data - CLEANED_CORONA_NLP_Test](https://drive.google.com/file/d/14U9ZPAUCbmL_bHh--hRV4NcZjbYUm29t/view?usp=sharing)
+- For future usage & results reproducibility, the best model hyperparameters dictionaries (depending on the training method - rec4 based / rec5 based - i.e. with / without using HuggingFace's Trainer), saved as JSON files, could be obtained in the [Model_HPs subfolder](https://drive.google.com/drive/folders/1-UqIBULhKS1_RQEUkqRQb1P7O3wkRiO2?usp=sharing) in the project folder specified above.
+- - [Best Model - Twitter-RoBERTa-Base (rec4 - NO HF Trainer) - Best HPs - Trial](https://drive.google.com/file/d/1S8cVHWauBvsMfA23E-jbrNOb2yPGfmzs/view?usp=sharing)
+- - [Best Model - BERTweet-Base (rec4 - NO HF Trainer) - Best HPs - Trial](https://drive.google.com/file/d/1R1bc5IB3OXHsZQerkH4JfM3GzOG5s-Xn/view?usp=sharing)
+- - [Best Model - Twitter-RoBERTa-Base (rec5 - USING HF Trainer) - Best HPs - Trial](https://drive.google.com/file/d/1Yl6Of1CZtaK4mRJIEM8dSN-EZMSByuuY/view?usp=sharing)
+- - [Best Model - BERTweet-Base (rec5 - USING HF Trainer) - Best HPs - Trial](https://drive.google.com/file/d/1E1o7NT4_bWuYM776Vg0bET4xyxzvDSPm/view?usp=sharing)
 
 
