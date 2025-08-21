@@ -21,5 +21,8 @@ All models were later compared using train & test metrics (accuracy, F1-score, p
 ## How to reproduce using Git Clone?
 The notebook has been run using Google Colab, while all model weights & relevant folders have been saved to my Google Drive while running the notebook (this includes model weights, best hyperparameters, datasets and more). In a nutshell:
 - Access the publicly available [project folder](https://drive.google.com/drive/folders/1egGGJ6F878xIk_bKUfjhyZStESiliwRC?usp=sharing), called "Project_COVID_NLP", which is located in Google Drive.
-- - The data could be obtained from Kaggle, but also from the project folder - in the [data subfolder](https://drive.google.com/drive/folders/1S1jxDoTxNXFIZKACrRp9nj2jhgatr_Au?usp=sharing). More specifically:
-- []()
+- The data could be obtained from Kaggle, but also from the project folder - in the [data subfolder](https://drive.google.com/drive/folders/1S1jxDoTxNXFIZKACrRp9nj2jhgatr_Au?usp=sharing). More specifically:
+- - [Original Training Data - CORONA_NLP_Train](https://drive.google.com/file/d/1dCbfsXJuU_Ers3k1JmtjLrfqVMUgEO6m/view?usp=drive_link)
+- - [Original Test Data - CORONA_NLP_Test](https://drive.google.com/file/d/1fmODEknrlX9MkB7VCr7EaZOPCpZy6QUx/view?usp=sharing)
+- - []()
+- - []()
