@@ -1,5 +1,5 @@
 # Advanced Topics in DL - Project - Sentiment Analysis of COVID-19 Tweets using Fine-Tuned NLP Models
-This project applies advanced deep learning techniques for sentiment analysis of COVID-19 tweets. It has been a major part of a course we took - "Advanced Topics in Deep Learning" at TAU's faculty of engineering (2025), during the 3rd year of our studies. As a group of 2, we fine-tuned two pre-trained HuggingFace transformer models (BERTweet and RoBERTa variants) for sentiment analysis on the COVID-19 Twitter Sentiment Dataset from Kaggle. Building on these, we explored model compression techniques (pruning, quantization, and knowledge distillation) to evaluate the trade-off between efficiency and performance, under a strict compute budget.
+This project applies advanced deep learning techniques for sentiment analysis of COVID-19 tweets. It has been a major part of a course we took - "Advanced Topics in Deep Learning" at TAU's faculty of engineering (2025), during the 3rd year of our studies. As a group of 2, we fine-tuned two pre-trained HuggingFace transformer models ([BERTweet](https://huggingface.co/vinai/bertweet-base) and [RoBERTa](https://huggingface.co/cardiffnlp/twitter-roberta-base) variants) for sentiment analysis on the COVID-19 Twitter Sentiment Dataset from Kaggle. Building on these, we explored model compression techniques (pruning, quantization, and knowledge distillation) to evaluate the trade-off between efficiency and performance, under a strict compute budget.
 
 The first, fine-tuning stage included:
 
@@ -13,7 +13,7 @@ After final training of the models using various modeling methodologies, the sec
 
 - ***Pruning***: structured pruning of attention and dense layers.
 - ***Quantization***: dynamic post-training quantization to reduce model size and accelerate inference.
-- ***Knowledge Distillation***: training smaller student models (e.g., HunggingFace's arampacha/roberta-tiny) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
+- ***Knowledge Distillation***: training smaller student models (e.g., HunggingFace's [arampacha/roberta-tiny[(https://huggingface.co/arampacha/roberta-tiny)) with guidance from fine-tuned teachers (BERTweet, RoBERTa).
 
 All models were later compared using train & test metrics (accuracy, F1-score, precision and recall), parameter count, the comparison was formatted in a neat CSV file and model weights are kept in the accessible through drive.
 
