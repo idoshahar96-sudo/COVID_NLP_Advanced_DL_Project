@@ -18,7 +18,7 @@ After final training of the models using various modeling methodologies, the sec
 
 All models were later compared using train & test metrics (accuracy, F1-score, precision and recall) & parameter count. The comparison was formatted in a neat CSV file and model weights are kept in the accessible through drive.
 
-The full implementation details can be found in the [Final Report (PDF)](https://github.com/IdanKanat/COVID_NLP_Advanced_DL_Project/blob/6fa4f2e8511ed728f7e116fc21fab2f58a88e000/Advanced%20Topics%20in%20Deep%20Learning%20-%20Project%20Report%20-%20COVID-19%20Tweet%20Sentiment%20Classification%20Using%20Transformer-Based%20NLP%20Models%20-%20Idan%20Kanat%20%26%20Ido%20Shahar%20-%2021.8.2025.pdf)
+The full implementation details can be found in the [Final Report (PDF)](https://github.com/IdanKanat/COVID_NLP_Advanced_DL_Project/blob/6cc6e8446cc41b85b3cb6340fc9376c5380d06e8/Advanced%20Topics%20in%20Deep%20Learning%20-%20Project%20Report%20-%20COVID-19%20Tweet%20Sentiment%20Classification%20Using%20Transformer-Based%20NLP%20Models%20-%20Idan%20Kanat%20%26%20Ido%20Shahar%20-%2021.8.2025.pdf)
 
 
 ## How to reproduce the project code using Git Clone?
